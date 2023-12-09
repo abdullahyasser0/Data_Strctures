@@ -21,9 +21,9 @@ return -1;
 
 int main(){
 
-int arr[5]={1,2,3,4,5};
+int arr[6]={1,2,3,4,5,6};
 
-cout<<BinarySearch (arr,0,4,8);
+cout<<BinarySearch (arr,0,5,6);
     return 0;
-    
+
 }
