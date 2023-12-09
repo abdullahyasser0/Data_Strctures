@@ -19,18 +19,11 @@ int BinarySearch(T Arr[], int L , int R, T value){
 return -1;
 }
 
-
-
-
-
-
-
-
-
 int main(){
 
 int arr[5]={1,2,3,4,5};
 
 cout<<BinarySearch (arr,0,4,8);
     return 0;
+    
 }
