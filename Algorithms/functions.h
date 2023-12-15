@@ -18,3 +18,10 @@ void printArray(int arr[], int size)
         cout << endl;
     }
 }
+void changeLoc(int arr[], int now, int after){
+    int temp=arr[now];   
+    for (now ;now>after;now--){
+        arr[now]=arr[now-1];
+    }
+    arr[after]=temp;
+}
