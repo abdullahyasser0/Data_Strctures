@@ -1,11 +1,10 @@
 #include <iostream>
+#include "functions.h"
 using namespace std;
 
-void swap(int& a, int& b) {
-    int temp = a;
-    a = b;
-    b = temp;
-}
+//Selection sort swaps the current with the minimum of the list so it sort the list on itelating on the list 
+
+
 
 void selectionSort(int arr[], int len){
     int min, Cindex, compare =0;
@@ -21,15 +20,6 @@ void selectionSort(int arr[], int len){
         }
         if (min != Cindex)
             swap(arr[min], arr[Cindex]);
-    }
-}
-
-void printArray(int arr[], int size)
-{
-    int i;
-    for (i = 0; i < size; i++) {
-        cout << arr[i] << " ";
-        cout << endl;
     }
 }
 
